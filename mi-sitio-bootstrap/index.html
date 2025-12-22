@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog de Jeidy Favicela</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Jeidy Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="inicio" class="hero text-white text-center d-flex align-items-center">
+    <div class="container">
+      <h1>Bienvenidos al Blog de Jeidy Favicela</h1>
+      <p class="lead">Fútbol ⚽ | Terror 🎬 | Vallenatos 🎶</p>
+      <button class="btn btn-primary mt-3" data-bs-toggle="collapse" data-bs-target="#masInfo">
+        Saber más
+      </button>
+      <div class="collapse mt-3" id="masInfo">
+        <div class="card card-body">
+          Aquí comparto mis pasiones, experiencias y un poco de todo lo que me inspira.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECCIÓN PRINCIPAL -->
+  <section id="blog" class="container my-5">
+    <div class="row g-4">
+      
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="assets/img/futbol.jpg" class="card-img-top img-fluid" alt="Fútbol">
+          <div class="card-body">
+            <h3 class="card-title">Mi pasión por el fútbol</h3>
+            <p class="card-text">El fútbol es más que un deporte: es emoción, trabajo en equipo y pura adrenalina.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="assets/img/it.jpg" class="card-img-top img-fluid" alt="Películas de terror">
+          <div class="card-body">
+            <h3 class="card-title">Amante del terror</h3>
+            <p class="card-text">Las películas de terror me encantan porque despiertan emociones fuertes y misteriosas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="assets/img/vallenato.jpg" class="card-img-top img-fluid" alt="Vallenatos">
+          <div class="card-body">
+            <h3 class="card-title">Vallenatos en el corazón</h3>
+            <p class="card-text">Nada como un buen vallenato para alegrar el día y cantar a todo pulmón.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre" class="bg-light py-5">
+    <div class="container text-center">
+      <h2>Sobre mí</h2>
+      <p>Soy Jeidy Favicela, tengo 26 años. Me encanta aprender sobre tecnología, crear proyectos web y compartir mis gustos con el mundo.</p>
+    </div>
+  </section>
+
+  <!-- FORMULARIO -->
+  <section id="contacto" class="container my-5">
+    <h2 class="text-center mb-4">Contáctame</h2>
+    <form class="mx-auto" style="max-width: 600px;">
+      <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control" placeholder="Tu nombre">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="correo@ejemplo.com">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Comentarios</label>
+        <textarea class="form-control" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center bg-light py-3">
+    <p>© 2025 Blog de Jeidy Favicela</p>
+    <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">GitHub</a>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

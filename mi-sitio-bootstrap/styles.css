@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+  padding-top: 70px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('assets/img/imagen1.png') center/cover no-repeat;
+  height: 80vh;
+}
+
+/* Botón personalizado */
+.btn-primary {
+  background-color: #ff5733;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e64520;
+  transform: scale(1.05);
+}
+
+/* Cards */
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer a {
+  text-decoration: none;
+  color: #ff5733;
+  margin: 0 5px;
+}
+
+/* Media Query */
+@media (max-width: 576px) {
+  body {
+    background-color: #fff3ee;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}
